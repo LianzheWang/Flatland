@@ -4,7 +4,7 @@
 Introduction
 -------------
 
-This is a Program simulates the world a flatlander sees, written in Python3.
+This is a python3 program simulates the world a flatlander sees.
 
 Environment Requirement.
 ---------------
