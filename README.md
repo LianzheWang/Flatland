@@ -2,9 +2,9 @@
 ==============================
 
 Introduction
--------------
+---------------
 
-This is a python3 program simulates the world a flatlander sees.
+This is a project simulates the world a flatlander sees, written in Python3.
 
 Environment Requirement.
 ---------------
@@ -18,7 +18,7 @@ Environment Requirement.
     This url might help if you find any issue installing ffmpeg: https://ffmpeg.org/
     
 Running & Testing
--------
+---------------
 
 1. Run the terminal command 
     `python3 flatland.py`
@@ -31,15 +31,15 @@ Running & Testing
    Then, run `python3 flatland.py`. This should save a .mp4 file in the folder.
 
 Implementation Details
------------
+----------------------
 
-This implementation is based on matplotlib. The 2-D objects are implemented by matplotlib.patch(), while the matched 1-D view objects are written based on numpy arrays. Observing point lays at (0, 0), watching towards postive y-direction.
+This implementation is based on matplotlib. The 2-D objects are implemented by matplotlib.patch(), while the matched 1-D view objects are written based on numpy arrays. Observing point lays at (0, 0), watching towards positive y-direction.
 Object types include: Rectangle, Triangle, Circle and Hexagon.
-This work made vector operations at the 1-D view generating phase, such that the pixel value would be efficently calculated for the light different view (the closer the pixel distance to the observing point, the lightter the pixel would be).
+This work made vector operations at the 1-D view generating phase, such that the pixel value would be efficiently calculated for the light different view (the closer the pixel distance to the observing point, the lighter the pixel would be).
 Light source are added through numpy arrays.
 Motions of the objects are basically random works. Collision avoidance is achieved from “back to the same way” setting of objects after a certain number of iterations of the animation, and precise calculations of objects' speed.
 
-More detialed informations could be presented and explained better at the comments in the script file.
+More detailed informations could be presented and explained better at the comments in the script file.
 
 
 Make Modifications
